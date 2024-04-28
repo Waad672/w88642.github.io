@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <title>Contact Form</title>
+    <link id="styleLink" rel="stylesheet" href="styleContact2.css" > 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
+    <section>
+      <nav>
+          <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+          <div class="logo">
+              <h1>Double<span>L</span></h1>
+          </div>
+
+          <ul class="navbar">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="contact.html">contact us</a></li>
+              <li><a href="#footer">About</a></li>
+              <li><a href="home2.html">Review</a></li>
+              <li><a href="#">Feedback</a></li>
+              <li><a href="home2.html">Learn</a></li>
+          </ul>
+
+          <div class="icon">
+              <i class="fas fa-moon" id="mode"></i>
+              <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+              <i class="fas fa-user"></i>
+            </div>
+            <form action="" class="search-form">
+              <input type="search" id="search-bar" placeholder="what you looking for..">
+              
+            </form>
+
+      </nav>
+    </section>
+<!------------------------>
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Contact us</h3>
+          
+          <p class="text">
+            Welcome to our Contact Us page! We're here to help with any questions or feedback you have.
+            Reach out to us using the form below or our contact details listed. We look forward to assisting you!
+          </p>
+<br>
+          <div class="info">
+            <div class="information">
+             
+              <p>Helwan. Cairo. Egypt</p>
+            </div>
+            <div class="information">
+             
+              <p>Double_L@gmail.com</p>
+            </div>
+            <div class="information">
+              
+              <p>+20-099999999</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="contactForm">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            
+            <div class="inputContainer">
+              <input type="text" name="name" class="input" />
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="inputContainer">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="inputContainer">
+              <input type="tel" name="phone" class="input" />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="inputContainer textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Write Your Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+      <!--FOOTER-->
+
+      <footer class="footer-distributed" id="footer">
+
+        <div class="footer-left">
+            <h3>D<span>ouble</span>L</h3>
+    
+            <p class="footer-links">
+              <a href="index.html">home</a>
+              |
+              <a href="contact.html">contac us</a>
+              |
+          <a href="#learn">Feedback</a>
+              |
+              <a href="#learn">learn</a>
+            </p>
+    
+            <p class="footer-company-name">Copyright © 2024 <strong>Double L</strong> All rights reserved</p>
+        </div>
+    
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Helwan</span>
+                 Cairo. Egypt</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+20 099999999</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="">Double_L@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About Us</span>
+                <strong>Double L</strong>: An online language learning platform offering interactive lessons and resources for learners to enhance proficiency in their target language.
+        </p>
+            <div class="footer-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+        </div>
+    </footer>
+<script>
+let searchBtn = document.querySelector("#search-btn")
+let searchForm = document.querySelector(".search-form")
+let menuBar = document.querySelector("#menu-bar")
+let Amenu = document.querySelector(" .navbar")
+
+function showbar(){
+    searchBtn.classList.toggle("fa-times")
+    searchForm.classList.toggle("active")
+
+}
+function showmenu(){
+    menuBar.classList.toggle(fa-times)
+    Amenu.classList.toggle("active")
+}
+
+
+
+
+    const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
+});
+
+document.getElementById("mode").addEventListener('click', function() {
+        var currentStyle = document.getElementById('styleLink').getAttribute('href');
+        
+        if (currentStyle === 'styleContact2.css') {
+            document.getElementById('styleLink').setAttribute('href', 'styleContact.css');
+        } else {
+            document.getElementById('styleLink').setAttribute('href', 'styleContact2.css');;
+
+    }})
+
+  </script>
+
+  </body>
+</html>

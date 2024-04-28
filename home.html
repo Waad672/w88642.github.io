@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>learning languages</title>
+    <link rel="stylesheet" href="styleHome.css"> 
+    <link rel="stylesheet" href="styleHome2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <section>
+        <nav>
+            <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+            <div class="logo">
+                <h1>Double<span>L</span></h1>
+            </div>
+
+            <ul class="navbar" id="registerButton" >
+                <li><a   href="#index.html">Home</a></li>
+                <li><a  href="#contact.html">contact us</a></li>
+                <li><a  href="#footer">About</a></li>
+                <li><a  href="#Review">Review</a></li>
+                <li><a href="">Feedback</a></li>
+                <li><a  href="#heading">Learn</a></li>
+                
+            </ul>
+
+            <div class="icon">
+                 <i class="fas fa-moon" id="mode"></i>
+                <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+                <i class="fas fa-user"></i>
+              </div>
+              <form action="" class="search-form">
+                <input type="search" id="search-bar" placeholder="what you looking for..">
+                
+              </form>
+
+        </nav>
+
+        <div class="main" id="Home">
+            <div class="main_content">
+                <div class="main_text">
+                    <h1>learning<br><span> Language</span></h1>
+                   <p>
+                    Doublr L is an innovative educational website dedicated to language learning. It offers a diverse range of interactive lessons, 
+                    exercises, and resources tailored to various proficiency levels. With its user-friendly interface and comprehensive curriculum,
+                     Doublr L aims to empower learners to master new languages effectively and efficiently.
+                      Whether you're a beginner or an advanced learner, 
+                    Doublr L provides the tools and support needed to enhance your language skills and achieve fluency.
+                   </p>
+                </div>
+                <div class="main_image">
+                    <img id="imageHome" src="image/pngtree-happy-women-learning-language-online-isolated-flat-vector-illustration-picture-image_8709165.png">
+                </div>
+            </div>
+            <div class="button">
+                <a href="#">Start NOW</a>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+
+    </section>
+
+      <!--FOOTER-->
+
+  <footer class="footer-distributed" id="footer">
+
+    <div class="footer-left">
+        <h3>D<span>ouble</span>L</h3>
+
+        <p class="footer-links">
+          <a href="index.html">home</a>
+          |
+          <a href="contact.html">contac us</a>
+          |
+          <a href="#learn">Feedback</a>
+          |
+          <a href="#learn">learn</a>
+        </p>
+
+        <p class="footer-company-name">Copyright © 2024 <strong>Double L</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Helwan</span>
+             Cairo. Egypt</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+20 099999999</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="">Double_L@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About Us</span>
+            <strong>Double L</strong>: An online language learning platform offering interactive lessons and resources for learners to enhance proficiency in their target language.
+    </p>
+        <div class="footer-icons">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+    </div>
+</footer>
+<script>
+let searchBtn = document.querySelector("#search-btn")
+let searchForm = document.querySelector(".search-form")
+let menuBar = document.querySelector("#menu-bar")
+
+function showbar(){
+    searchBtn.classList.toggle("fa-times")
+    searchForm.classList.toggle("active")
+
+}
+function showmenu(){
+    menuBar.classList.toggle(fa-times)
+    Amenu.classList.toggle("active")
+}
+
+var mode =document.getElementById("mode");
+  mode.onclick =function change(){
+      document.body.classList.toggle("dark-theme");
+      var image=
+      document.getElementById('imageHome');
+      if (image.src.match("image/pngtree-happy-women-learning-language-online-isolated-flat-vector-illustration-picture-image_8709165.png"))
+      {image.src="image/about us (2).jpg"}
+      else{
+          image.src="image/pngtree-happy-women-learning-language-online-isolated-flat-vector-illustration-picture-image_8709165.png"}
+  }
+var registerButton = document.getElementById('registerButton');
+
+
+registerButton.addEventListener('click', function() {
+  
+    alert('Please click the Start Now button!');
+});
+
+  </script>
+
+
+</body>
