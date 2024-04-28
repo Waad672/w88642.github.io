@@ -1,0 +1,181 @@
+body{
+    background-image: url("4365-11.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+
+}
+.lab1{
+    padding: 20px;
+    margin: 100px 200px;
+    width: 400px;
+    height: 200px;
+    color: white;
+}
+.field{
+    height: 650px;
+    width: 520px;
+}
+#FIRST{
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 300px;
+}
+#LAST{
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 355px;
+}
+#PASS{
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 405px;
+}
+#EMAIL{
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 455px;
+}
+#GENDER{
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 500px;
+}
+#AD{
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 550px;
+}
+#UNI{
+    font-size: 20px;
+    position: absolute;
+    left: 480px;
+    top: 600px;
+}
+#AGE{
+    font-size: 30px;
+    position: absolute;
+    left: 480px;
+    top: 650px;
+}
+.F{
+    font-size: 30px;
+    position: absolute;
+    top: 295px;
+    left: 300px;
+}
+.L{
+    font-size: 30px;
+    position: absolute;
+    top: 350px;
+    left: 300px; 
+}
+.P{
+    font-size: 30px;
+    position: absolute;
+    top: 400px;
+}
+.E{
+    font-size: 30px;
+    position: absolute;
+    top: 450px;
+}
+.UNI{
+    font-size: 30px;
+    position: absolute;
+    left: 300px;
+    top: 600px;
+}
+.G{
+    font-size: 30px;
+    position: absolute;
+    left: 300px;
+    top: 500px;
+}
+.AGE{
+    font-size: 30px;
+    position: absolute;
+    left: 300px;
+    top: 650px;
+}
+.AD{
+    font-size: 30px;
+    position: absolute;
+    left: 300px;
+    top: 550px;
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+#button{
+    font-size: 30px;
+}
+.LOG{
+    position: absolute;
+    left: 620px;
+    top: 740px;
+}
+.SIGN{
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    top: 700px;
+    width: 430px;
+}
+#button{
+    position: absolute;
+    left: 300px;
+    top: 740px;
+}
+.links, .link, .lin, .li{
+    color: black;
+}
+.w{
+    color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #B4CFEC;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.logo{
+    font-size: 40px;
+    color: #000080;
+   /* cursor: pointer;*/
+    position: absolute;
+    left: 60px;
+}
+
+.logo span{
+    color: #4169E1;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+li{
+
+    display: inline-block;
+    padding: 2px 16px;
+}
+
+li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color:   #4169E1;
+}

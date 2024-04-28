@@ -1,0 +1,151 @@
+body{
+    background-image: url("3087-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 1950px;
+
+}
+.lab1{
+    padding: 20px;
+    margin: 150px 1130px;
+    width: 500px;
+    color: white;
+    font-size: medium;
+    width: 720px;
+}
+#FIRST, #LAST, #AD, #EMAIL, #GENDER, #UNI, #PASS{
+    font-size: 20px;
+}
+#AGE{
+    font-size: 30px;
+}
+
+.F, .L, .P, .E, .UNI, .AD, .G, .AGE{
+    font-size: 30px;
+}
+
+#button{
+    font-size: 30px;
+    position: absolute;
+    right: 128px;
+    top: 640px;
+}
+div a:hover{
+    color:   #4169E1;
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+.h3{
+    color: rgb(184, 233, 245);
+    font: normal 36px 'Cookie', cursive; 
+    position: absolute;
+    right: 580px;
+    bottom: 150px;
+}
+.links{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 650px;
+    bottom: 130px;
+}
+.link{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 520px;
+    bottom: 130px;
+}
+.lin{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 390px;
+    bottom: 130px;
+}
+.li{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 320px;
+    bottom: 130px;
+}
+.name{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 330px;
+    bottom: 50px;
+}
+.w{
+    color: white;
+}
+.q{
+    color: rgb(16, 151, 151);
+}
+.center{
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
+.right{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 40px;
+    right: 1400px;
+}
+.LOG{
+    position: absolute;
+    right: 420px;
+    top: 640px;
+}
+.s{
+    font-size: 30px;
+    color: rgb(119, 175, 192);
+    position: absolute;
+    bottom: 170px;
+    left: 100px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #B4CFEC;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.logo{
+    font-size: 40px;
+    color: #000080;
+   /* cursor: pointer;*/
+    position: absolute;
+    left: 60px;
+}
+
+.logo span{
+    color: #4169E1;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+li{
+
+    display: inline-block;
+    padding: 2px 16px;
+}
+
+li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color:   #4169E1;
+}

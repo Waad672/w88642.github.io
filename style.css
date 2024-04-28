@@ -1,0 +1,157 @@
+body{
+    background: url("3087-3.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+.lab1{
+    padding: 0px;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    width: 600px;
+    color: white;
+    font-size: medium;
+
+}
+.field{
+    height: 400px;
+}
+#N, #M{
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+#button{
+    font-size: 30px;
+    position: absolute;
+    bottom: 90px;
+    right: 350px;
+}
+.sub{
+    font-size: 22px;
+    width: 450PX;
+}
+#rem{
+    position: absolute;
+    right: 210px;
+    top: 51ch;
+}
+.r{
+    position: absolute;
+    right: 90px;
+    top: 34ch;
+}
+.h3{
+    color: rgb(184, 233, 245);
+    font: normal 36px 'Cookie', cursive; 
+    position: absolute;
+    right: 580px;
+    bottom: 150px;
+}
+.links{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 650px;
+    bottom: 130px;
+}
+.link{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 520px;
+    bottom: 130px;
+}
+.lin{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 390px;
+    bottom: 130px;
+}
+.li{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    right: 320px;
+    bottom: 130px;
+}
+.name{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 330px;
+    bottom: 50px;
+}
+.w{
+    color: white;
+}
+.q{
+    color: rgb(16, 151, 151);
+}
+.center{
+    color: white;
+    position: absolute;
+    bottom: 80px;
+    right: 60px;
+}
+.right{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    bottom: 40px;
+    right: 1400px;
+}
+.s{
+    font-size: 30px;
+    color: rgb(119, 175, 192);
+    position: absolute;
+    bottom: 170px;
+    left: 100px;
+}
+div a:hover{
+    color:   #4169E1;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #B4CFEC;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.logo{
+    font-size: 40px;
+    color: #000080;
+   /* cursor: pointer;*/
+    position: absolute;
+    left: 60px;
+}
+
+.logo span{
+    color: #4169E1;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+li{
+
+    display: inline-block;
+    padding: 2px 16px;
+}
+
+li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color:   #4169E1;
+}

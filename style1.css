@@ -1,0 +1,104 @@
+body{
+    background-image: url("4365-11.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+.lab1{
+    color: white;
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    right: 0px;
+    bottom: 0px;
+    left: 300px;
+}
+.field{
+    height: 400px;
+}
+#N{
+    font-size: 20px;
+    position: absolute;
+    top: 233px;
+    left: 70px;
+    width: 410px;
+}
+#M{
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 70px;
+    width: 410px;
+}
+#button{
+    font-size: 30px;
+    position: absolute;
+    top: 410px;
+    left: 70px;
+}
+.sub{
+    font-size: 22px;
+    width: 420PX;
+}
+#rem{
+    position: absolute;
+    left: 350px;
+    top: 51ch;
+}
+.r{
+    position: absolute;
+    left: 370px;
+    top: 34ch;
+}
+.links, .link, .lin, .li{
+    color: black;
+}
+.w{
+    color: black;
+}
+.q{
+    color: black"
+}
+h1{
+    font-size: 30px;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #B4CFEC;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.logo{
+    font-size: 40px;
+    color: #000080;
+   /* cursor: pointer;*/
+    position: absolute;
+    left: 60px;
+}
+
+.logo span{
+    color: #4169E1;
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+li{
+
+    display: inline-block;
+    padding: 2px 16px;
+}
+
+li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color:   #4169E1;
+}
