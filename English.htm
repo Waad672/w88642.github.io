@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Double L</title>
+        <link href=" css-en/EnglishStyle.css" rel="stylesheet" id="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    </head>
+    <body>
+
+        <section>
+            <nav>
+                <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+                <div class="logo">
+                    <h1>Double<span>L</span></h1>
+                </div>
+    
+                <ul class="navbar">
+                    <li><a href="#index.html">Home</a></li>
+                    <li><a href="#contact.html">contact us</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Review">Review</a></li>
+                </ul>
+    
+                <div class="icon">
+                    <i class="fas fa-moon" id="mode" onclick="toggleStylesheet()"></i>
+                    <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+                    <i class="fas fa-user"></i>
+                  </div>
+                  <form action="" class="search-form">
+                    <input type="search" id="search-bar" placeholder="what you looking for..">
+                    
+                  </form>
+    
+            </nav>
+        </section><br><br>
+
+        <img  id="firstimage" src="images-en/english-lesson-illustration-concept-on-white-background-vector.jpg" alt="English" >
+        <pre id="prg6">
+            NAME: Hania mamdouh mostafa ahmed mahmoud zaher
+            ID: 20230637
+        </pre><br><br>
+        <h1 id="header1">Learning English is important, but firstly,<br> why is it a good idea to learn any new language? </h1>
+        <br>
+        
+        <pre id="prg">
+        Learning a new language can be an enjoyable experience at any age.
+        People learn new languages for many different reasons, such as travel or work
+        , and the benefits can be incredibly worthwhile, whatever the reason.
+
+        Studying a foreign language can increase cultural knowledge and can help you feel more confident 
+        when travelling.It’s also a fact that learning a second language improves brain functionality.
+        Studies show that people who speak more than one language have improved memory,problem-solving and
+         critical-thinking skills, enhanced concentration, ability to multitask and better listening skills. 
+
+        Sounds great, right? So, now you know that it’s a good idea to learn a language,
+        why is it important to learn English?
+    </pre>
+   <center><video id="v" muted  controls poster="images-en/Reasons-to-Learn-English-scaled.webp" src="5 Reasons to Learn English.mp4" title="Why learn English">
+    <track src="en_file.vtt" kind="subtitles" srclang="en" label="English"> 
+    <track src="ar_file.vtt" kind="subtitles" srclang="ar" label="Arabic"> 
+     Your Browser Dose Not Support Video Tags
+   </video></center>
+       <a href="English1.htm" id="button" title="Go to the next page">Next</a><br><br>
+
+    
+
+<!--FOOTER-->
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+        <h3>D<span>ouble</span>L</h3>
+
+        <p class="footer-links">
+          <a href="index.html">home</a>
+          |
+          <a href="contact.html">contac us</a>
+          |
+          <a href="#learn">learn</a>
+        </p>
+
+        <p class="footer-company-name">Copyright © 2024 <strong>Double L</strong> All rights reserved</p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Helwan</span>
+             Cairo. Egypt</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+20 099999999</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="">Double_L@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About Us</span>
+            <strong>Double L</strong>: An online language learning platform offering interactive lessons and resources for learners to enhance proficiency in their target language.
+    </p>
+        <div class="footer-icons">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+    </div>
+</footer>
+
+ 
+    
+
+<script>
+    // JavaScript function to toggle between style sheets
+    function toggleStylesheet() {
+        var stylesheet = document.getElementById('stylesheet');
+        
+        // Check which stylesheet is currently active
+        if (stylesheet.href.includes('css-en/EnglishStyle.css')) {
+            // Switch to style2.css
+            stylesheet.href = 'css-en/EnglishStyle1.css';
+        } else {
+            // Switch back to style1.css
+            stylesheet.href = 'css-en/EnglishStyle.css';
+        }
+    }
+</script>
+   <script>
+    alert("Do you want to learn english!Don't worry, you can do it");
+    </script>
+    
+    <script>
+
+        let searchBtn = document.querySelector("#search-btn")
+        let searchForm = document.querySelector(".search-form")
+        let menuBar = document.querySelector("#menu-bar")
+        
+        
+        function showbar(){
+            searchBtn.classList.toggle("fa-times")
+            searchForm.classList.toggle("active")
+        
+        }
+        function showmenu(){
+            menuBar.classList.toggle(fa-times)
+            Amenu.classList.toggle("active")
+        }
+</script>
+    </body>
+</html>
