@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css" id="styleLink">
+    <!-- <link rel="stylesheet" href="style-1.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <section class="navbarr">
+        <nav>
+            <div id="menu-bar" class="fas fa-bar" onclick="showmenu()"></div>
+            <div class="logo">
+                <h1>Double<span>L</span></h1>
+            </div>
+            <ul class="navbar">
+                <li><a href="home2.html">Home</a></li>
+                <li><a href="contact.html">contact us</a></li>
+                <li><a href="#footer">About</a></li>
+                <li><a href="home2.html#review">Review</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="home2.html#heading">Learn</a></li>
+            </ul>
+            <div class="icon">
+                <i class="fas fa-moon" id="mode"></i>
+                <i class="fas fa-search" id="search-btn" onclick="showbar()"></i>
+                <i class="fas fa-user" ></i>
+            </div>
+            <form action="" class="search-form">
+                <input type="search" id="search-bar" placeholder="what you looking for.?">
+            </form>
+        </nav>
+    </section> 
+    <!-- body -->
+    <br><br><br><br><br><br>
+    <div class="container">
+        
+            <fieldset class="t">
+                <form class="feed">
+                    <h1>Give your Feedback</h1>
+                    <p>your Feedback is important for us</p>
+                    <div class="id">
+                        <input class="ty" type="text" placeholder="Full name" required>
+                        <i class="far fa-user"></i>
+                    </div>
+                    <div class="id">
+                            <input class="ty" type="email" placeholder="Email address" required>
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <textarea cols="15" rows="5" placeholder="Enter your opinions"></textarea>
+                        <button>send</button>
+                </form>
+            </fieldset> 
+        </div>
+      <!--FOOTER-->
+
+      <footer class="footer-distributed" id="footer">
+
+        <div class="footer-left">
+            <h3>D<span>ouble</span>L</h3>
+    
+            <p class="footer-links">
+                <a href="home2.html">home</a>
+                |
+                <a href="contact.html">contac us</a>
+                |
+                <a href="feedback.html">Feedback</a>
+                |
+                <a href="home2.html#heading">learn</a>
+              </p>
+    
+            <p class="footer-company-name">Copyright © 2024 <strong>Double L</strong> All rights reserved</p>
+        </div>
+    
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Helwan</span>
+                 Cairo. Egypt</p>
+            </div>
+    
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+20 099999999</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="">Double_L@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About Us</span>
+                <strong>Double L</strong>: An online language learning platform offering interactive lessons and resources for learners to enhance proficiency in their target language.
+        </p>
+            <div class="footer-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+        </div>
+    </footer>
+        <script>
+
+            let searchBtn = document.querySelector("#search-btn")
+            let searchForm = document.querySelector(".search-form")
+            let menuBar = document.querySelector("#menu-bar")
+            
+            
+            function showbar(){
+                searchBtn.classList.toggle("fa-times")
+                searchForm.classList.toggle("active")
+            
+            }
+            function showmenu(){
+                menuBar.classList.toggle(fa-times)
+                Amenu.classList.toggle("active")
+            }
+
+            document.getElementById('mode').addEventListener('click', function() {
+        var currentStyle = document.getElementById('styleLink').getAttribute('href');
+        
+        if (currentStyle === 'feedback.css') {
+            document.getElementById('styleLink').setAttribute('href', 'feedback-1.css');
+        } else {
+            document.getElementById('styleLink').setAttribute('href', 'feedback.css');
+        }
+    });
+            </script>
+        </body>
+        </html>
+    
+    

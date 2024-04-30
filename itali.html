@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>italiano</title>
+     <link rel="stylesheet" href="itali-1.css"> 
+     <link rel="stylesheet" href="itali.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <section>
+        <nav>
+            <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+            <div class="logo">
+                <h1>Double<span>L</span></h1>
+            </div>
+
+            <ul class="navbar">
+                <li><a href="home2.html">Home</a></li>
+                <li><a href="contact.html">contact us</a></li>
+                <li><a href="#footer">About</a></li>
+                <li><a href="home2.html#review">Review</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="home2.html#heading">Learn</a></li>
+            </ul>
+
+            <div class="icon">
+                <i class="fas fa-moon" id="mode"></i>
+                <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+                <i class="fas fa-user"></i>
+              </div>
+              <form action="" class="search-form">
+                <input type="search" id="search-bar" placeholder="what you looking for..">
+                
+              </form>
+
+        </nav>
+    </section>
+    </nav>
+    <section>
+    <div class="contenar">
+        <h1>Welcome to italiano learning</h1>
+        <p class="start">Start your journey to learning italian with us!</p>
+        <!-- <hr> -->
+        <h2 class="basic">some basics of language:</h2>
+        <br>
+        <h3> <strong> 1-pictures: </strong></h3>
+        <h3 class="img">we will show you some picture with names:</h3>
+        <img class="pic" src="apple.jpg" width="300">
+        <p class="tb">Mela..</p>
+        <img src="car~2.jpg" class="pic" width="300">
+        <!-- <br> -->
+        <p class="tb">Auto..</p>
+        <img src="dog.jpg" class="pic" width="300">
+        <!-- <br> -->
+        <p class="tb">Cane..</p>
+         <img src="cat.jpg" class="pic" width="300">
+        <br>
+        <p class="tb">Gatto..</p> 
+        <!-- <br> -->
+        <h3><strong>2-vedio</strong></h3>
+        <h3 class="vedio">And this vedio to how learn italiano in 7 days</h3>
+        <video src="I_Learned_Italian_in_7_Days_-_Part_I(720P_HD).mp4" controls width="500"></video>
+        <hr>
+        <h1>lets start with leasons..!</h1>
+        <h2 class="dimo"><b>Our leasons:</b></h2>
+        <ol>
+            <li>Basic Italian vocablary</li>
+            <li>Italian Grammer Rules</li>
+            <li>common Italian phrases</li>
+        </ol>
+        <h2 class="dimo">interactive Exersice</h2>
+        <ul>
+            <li><a href="https://www.qiuz-tree.com/italian_Vocabulary_main.html" target="blank">vocablary qiuz</a></li>
+            <li><a href="https://learnamo.com/en/italian-grammar-test/" target="blank">Grammer test</a></li>
+        </ul>
+        <h2 class="dimo">
+            Additional Resourses
+        </h2>
+        <p>Exeplor more sources for learning italian:</p>
+        <ul>
+            <li><a href="https://www.europassitaliano.com/learn/books/" target="blank">italian language books</a></li>
+            <li><a href="https://preply.com/ar/online/hungarian-tutors" target="blank">Online italian courses</a></li>
+        </ul>
+        <!-- <h2 class="alpha">this is the alphapet..</h2>
+        <p class="alpha-2"></p> -->
+        <h2 class=" conclogin">thank you for your looking in our page</h2>
+    </div>
+</section>
+    <!-- footer -->
+    <!--FOOTER-->
+
+    <footer class="footer-distributed" id="footer">
+
+       <div class="footer-left">
+          <h3>D<span>ouble</span>L</h3>
+
+         <p class="footer-links">
+             <a href="home.html">home</a>
+              |
+              <a href="contact.html">contac us</a>
+              |
+              <a href="feedback.html">Feedback</a>
+              |
+             <a href="home2.html#heading">learn</a>
+            </p>
+
+          <p class="footer-company-name">Copyright ©️ 2024 <strong>Double L</strong> All rights reserved</p>
+      </div>
+      <div class="footer-center">
+         <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Helwan</span>Cairo.Egypt</p>
+            </div>
+            <div><i class="fa fa-phone"></i>
+                <p>+2099999999</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+             <p><a href="">Double_L@gmail.com</a></p>
+         </div>
+     </div>
+     </div>
+     <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About Us</span>
+             <strong>Double L</strong>: An online language learning platform offering interactive lessons and resources for learners to enhance proficiency in their target language.
+     </p>
+            <div class="footer-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+           </a>
+           <a href="#">
+             <i class="fab fa-twitter"></i>
+           </a>
+           <a href="#">
+             <i class="fab fa-instagram"></i>
+           </a>
+         </div>
+      </div>
+</footer>
+     <script>
+        let searchBtn = document.querySelector('#search-btn')
+        let searchForm = document.querySelector('.search-form')
+        let menuBar = document.querySelector('#menu-bar')
+
+        function showbar(){
+            searchBtn.classList.toggle('fa-times')
+            searchBtn.classList.toggle('active')
+        }
+        function showmenu(){
+            menuBar.classList.toggle('fa-times')
+            Amenu.classList.toggle('active')
+        }
+     </script>
+</body>
+</html>
